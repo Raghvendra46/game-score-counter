@@ -1,0 +1,51 @@
+@font-face {
+    font-family: cursed-timer;
+    src: url(./cursed-timer.ttf);
+}
+
+body {
+    text-align: center;
+}
+
+#main-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #2788f8;
+    padding: 68px 0 68px 0;
+}
+
+.team-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0 0 16px 0;
+}
+
+.score {
+    font-family: cursed-timer;
+    text-align: center;
+    background-color: black;
+    font-size: 100px;
+    padding: 25px 16px 8px 16px;
+    color: #E11D48;
+    margin: 0 0 20px 0;
+    border-radius: 8px;
+}
+
+
+button {
+    font-family: cursed-timer;
+    font-size: 20px;
+    padding: 10px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+#new-game-btn {
+    margin: 20px 0 0 0;
+    padding: 20px 8px 16px 8px;
+    color: black;
+    border: 2px solid black;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Score Counter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="main-container">
+        <div class="scorecard">
+            <h1 class="team-name">USER</h1>
+            <div class="score-div">
+                <div class="score">
+                    <span id="home-score">0</span>
+                </div>
+                <div class="btns">
+                    <button onclick="add1Home()">+1</button>
+                    <button onclick="add2Home()">+2</button>
+                    <button onclick="add3Home()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="scorecard">
+            <h1 class="team-name">PROGRAM</h1>
+            <div class="score-div">
+                <div class="score">
+                    <span id="guest-score">0</span>
+                </div>
+                <div class="btns">
+                    <button onclick="add1Guest()">+1</button>
+                    <button onclick="add2Guest()">+2</button>
+                    <button onclick="add3Guest()">+3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="new-game-btn" onclick="newGame()">New Game</button>
+</body>
+<script src="index.js"></script>
+</html>
